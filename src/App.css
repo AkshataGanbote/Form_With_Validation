@@ -1,0 +1,63 @@
+body {
+  background-image: linear-gradient(rgb(0, 213, 255),rgb(0, 149, 255), rgba(93, 0, 255, 0.555));
+}
+
+.container {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  max-width: 500px;
+  width: 100%;
+  margin: auto;
+  
+}
+.container > form {
+  width: 60%;
+  border: 1px solid #dfdfdf;
+  padding: 20px;
+  border-radius: 5px;
+  background: #fff;
+  
+}
+
+button {
+  background: skyblue ;
+  border: none;
+  padding : 10px 70px;
+  margin-top: 8%;
+  cursor: pointer;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+p {
+  color: red;
+  text-align: left;
+  margin-left: 19%;
+  margin-top: -3%;
+}
+
+.successMsg{
+  padding : 20px;
+  background-color: greenyellow;
+  margin-bottom: 5%;
+}
+
+h1, .inputDiv{
+  text-align: center;
+  align-items: center;
+  margin-bottom: 10%;
+  
+}
+h1{
+  margin-bottom: 15%;
+}
+input{
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+  font-size: 15px;
+  margin-bottom: 5%;
+}
